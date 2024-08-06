@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    border: 1px solid #000;
+}
+
+.keyboard_left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.keyboard_beween{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.keyboard_right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.key {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 60px;
+    height: 60px;
+}
+.key_half{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 85px;
+}
+.key_dou{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 120px;
+}
+.key_dou_haft{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 155px;
+}
+.key_small{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 47px;
+}
+.key_space{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 480px;
+}
+.key_none{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+    padding: 0;
+    flex: none;
+    width: 29px;
+}
+.key_none1{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+    padding: 0;
+    flex: none;
+    width: 390px;
+}
+.key_none2{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: default;
+    padding: 0;
+    flex: none;
+    width: 315px;
+}
+.key_mouse_left{
+    cursor: default;
+    margin-top: 30px;
+    border-radius: 0 0 0 20px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+}
+.key_mouse_right{
+    cursor: default;
+    margin-top: 30px;
+    border-radius: 0 0 20px 0;
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+}
+.none{
+    border: 1px solid black;
+    margin-top: 30px;   
+    cursor: default;
+    padding: 0;
+    flex: none;
+    width: 5px;
+    height: 28px;
+}
+
+.key_mouse_right:hover {
+    background-color: #e0e0e0;
+}
+.key_mouse_right:active {
+    background-color: #d0d0d0;
+}
+
+.key_mouse_left:hover {
+    background-color: #e0e0e0;
+}
+.key_mouse_left:active {
+    background-color: #d0d0d0;
+}
+
+.key_space:hover {
+    background-color: #e0e0e0;
+}
+.key_space:active {
+    background-color: #d0d0d0;
+}
+
+.key_dou_haft:hover {
+    background-color: #e0e0e0;
+}
+.key_dou_haft:active {
+    background-color: #d0d0d0;
+}
+
+.key_small:hover {
+    background-color: #e0e0e0;
+}
+.key_small:active {
+    background-color: #d0d0d0;
+}
+
+.key:hover {
+    background-color: #e0e0e0;
+}
+.key:active {
+    background-color: #d0d0d0;
+}
+
+.key_half:hover {
+    background-color: #e0e0e0;
+}
+.key_half:active {
+    background-color: #d0d0d0;
+}
+
+.key_dou:hover {
+    background-color: #e0e0e0;
+}
+.key_dou:active {
+    background-color: #d0d0d0;
+}
